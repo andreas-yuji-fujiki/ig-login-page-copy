@@ -1,3 +1,6 @@
+.hide{
+    display: none;
+}
 /* main container */
 #main-container{
     display: flex;
@@ -155,6 +158,7 @@
     margin-top: 8px;
     gap: 0 5px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 #copyright-text a{
