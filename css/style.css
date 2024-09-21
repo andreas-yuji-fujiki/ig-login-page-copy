@@ -1,0 +1,168 @@
+/* main container */
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 3rem;
+}
+
+/* scrolling images aside over phone frame */
+#prints-container{
+    display: flex;
+    max-width: 50vw;
+}
+#prints-container img{
+    width: auto;
+}
+#prints-container #phone-frame{
+    z-index: -1;
+}
+#prints-container #current-print-image{
+    align-self: flex-start;
+    margin: 26px 0 0 -308px;
+}
+
+/* login container */
+#login-container img{
+    width: 50px;
+}
+
+
+#instagram-logo-container img{
+    width: 178px;
+    margin-bottom: 35px;
+}
+
+#main-box{
+    padding: 60px 45px 20px 45px;
+    border: 1px solid #e1e1e1;
+}
+#login-container *{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-form input{
+    padding: 9px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    width: 250px;
+    margin-bottom: 10px;
+}
+#login-form input#submit-login-btn{
+    width: 270px;
+    border-radius: 8px;
+    background-color: #4cb5f9;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+/* other login ways*/
+#or-container{
+    flex-direction: row;
+    gap: 20px;
+
+    font-size: 13.55px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    opacity: 0.5;
+
+    margin: 13px 0;
+}
+#or-container .aside-line{
+    height: 20px;
+    width: 101px;
+    border-bottom: 1px solid #6d6d6d;
+    position: relative;
+    z-index: -1;
+    margin-top: -20px;
+}
+#facebook-login-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    gap: 10px;
+
+    border: none;
+    background-color: transparent;
+
+    width: 250px;
+    font-size: 16.5px;
+    color: #385185;
+}
+#facebook-login-btn img{
+    width: 20px;
+}
+#password-recovery-span a{
+    font-size: 13.5px;
+    color: #00376b;
+}
+
+/* sign up */
+#sign-up-container{
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+}
+#sign-up-container #sign-up-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+}
+#sign-up-container #sign-up-link a{
+    color: #0095f6;
+}
+#get-app-container span{
+    font-size: 15.5px;
+    padding: 15px 0;
+}
+#get-app-container #download-app-btns{
+    flex-direction: row;
+    gap: 10px;
+}
+#get-app-container #download-app-btns img{
+    width: 130px;
+}
+
+/* footer */
+#footer-container *{
+    display: flex;
+    justify-content: center;
+    color: #7c7c7c;
+    font-size: 12px;
+}
+#other-links{
+    gap: 0 16px;
+    padding: 0 80px;
+    flex-wrap: wrap;
+}
+#other-links a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#other-links li{
+    margin-bottom: 8px;
+}
+#copyright-text{
+    margin-top: 8px;
+    gap: 0 5px;
+}
+
+#copyright-text a{
+    font-weight: bolder;
+    text-decoration: underline;
+    opacity: 1;
+    text-underline-offset: 3px;
+}
+#copyright-text a:hover{
+    text-decoration: none;
+    font-weight: normal;
+}
