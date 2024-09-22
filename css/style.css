@@ -1,6 +1,7 @@
 .hide{
     display: none;
 }
+
 /* main container */
 #main-container{
     display: flex;
