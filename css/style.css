@@ -47,20 +47,9 @@
     flex-direction: column;
     align-items: center;
 }
-#login-form input{
-    padding: 9px;
-    border: 1px solid #dbdbdb;
-    background-color: #fafafa;
-    width: 250px;
-    margin-bottom: 10px;
-}
-#login-form input#submit-login-btn{
-    width: 270px;
-    border-radius: 8px;
-    background-color: #4cb5f9;
-    color: white;
-    font-weight: bolder;
-    font-size: 14px;
+#login-inputs-img{
+    transform: scale(5.0);
+    margin: 34px 0 55px 0;
 }
 
 /* other login ways*/
